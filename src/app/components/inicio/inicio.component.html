@@ -1,0 +1,46 @@
+<div id="contenedor">
+  
+    <div class="contenedores"> <!--Formulario 1 con interface-->
+      <form class="formulario1" [formGroup]="formulario1" (ngSubmit)="guardar()">
+        <h1>Sobre ti</h1>  
+        <div>
+              <label for="nombre">
+              Nombre Empleado: 
+              </label> 
+              <input id="nombre" type="text" formControlName="nombre">
+          </div>
+          
+          <div>
+            <label for="apellido">
+             Apellido:
+            </label> 
+            <input id="apellido" type="text" formControlName="apellido">
+          </div>
+
+          <div>
+            <label for="salario">
+             Salario:
+            </label> 
+            <input id="salario" type="number" formControlName="salario">
+          </div>
+        
+          <div>
+            <label for="puesto">
+             Puesto:
+            </label> 
+            <input id="puesto" type="text" formControlName="puesto">
+          </div>
+    
+         <br>
+            
+        
+          <button class="button" type="submit">Subir</button>
+          <div id="listado">
+            <a [routerLink]="['/listado']"> Ver listado de empleados </a>
+          </div>
+          
+        </form>
+    
+        
+    
+    </div>

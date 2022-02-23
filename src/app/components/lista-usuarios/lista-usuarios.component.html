@@ -1,0 +1,28 @@
+<div class="contenedor">
+    <div><p>Lista de empleados!</p></div>
+    
+
+
+<div class="tabla">
+    <table id="tabla1">
+      <tr>
+          <th>Nombre</th> 
+          <th>Apellido</th> 
+          <th>Salario</th>
+          <th>Puesto</th>
+      </tr>
+      <tbody *ngFor="let trabajador of listado">
+              <tr>
+                  <td>{{trabajador.nombre}}</td>
+                  <td>{{trabajador.apellido}}</td>
+                  <td>{{trabajador.salario}}</td>
+                  <td>{{trabajador.puesto}}</td>
+              </tr>
+      </tbody>
+  </table>
+  </div>
+
+  <button class="button" (click)="BorrarUsuario()">Eliminar empleado</button>
+
+  
+</div>
