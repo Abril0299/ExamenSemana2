@@ -9,17 +9,19 @@
 .formulario1{
     background-color: paleturquoise;
     border-radius: 8px;
-    padding: 20px;
+    padding: 30px;
+    width: 400px;
     
   
 }
 .formulario1 h1{
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
+    color: white;
 }
 
 .formulario1 label{
-    font-size: 20px;
+    font-size: 30px;
     width:150px;
     display:inline-block;
 }
@@ -31,8 +33,8 @@
     color: rgb(0, 0, 0);
     font-size: 20px;
     padding: 10px;
-    background-image: linear-gradient(to bottom, rgb(255, 144, 255), rgb(108, 245, 245));
-    margin-left: 130px;
+    background-image: linear-gradient(to bottom, rgb(92, 135, 255), rgb(108, 245, 245));
+    margin-left: 160px;
 }
 
 #listado{
