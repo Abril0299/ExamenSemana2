@@ -7,7 +7,7 @@
 }
 
 .formulario1{
-    background-color: paleturquoise;
+    background-color: rgb(201, 245, 245);
     border-radius: 8px;
     padding: 30px;
     width: 400px;
@@ -47,7 +47,7 @@
   #listado a{
       margin: 20px;
       display:inline-block; /*NPI*/
-      color:rgb(0, 146, 190);
+      color:rgb(132, 216, 241);
       text-decoration:none;
       padding:15px 15px;
       line-height:normal;
