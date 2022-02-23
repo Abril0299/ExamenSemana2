@@ -1,0 +1,61 @@
+.contenedores{
+    margin: 0px auto;
+   margin-top: 70px;
+    font-family: 'Handlee', cursive;
+    width: 350px;
+  
+}
+
+.formulario1{
+    background-color: paleturquoise;
+    border-radius: 8px;
+    padding: 20px;
+    
+  
+}
+.formulario1 h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.formulario1 label{
+    font-size: 20px;
+    width:150px;
+    display:inline-block;
+}
+
+.button{
+    border-color: navajowhite;
+    border-radius: 10px;
+    font-family: 'Handlee', cursive;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 10px;
+    background-image: linear-gradient(to bottom, rgb(255, 144, 255), rgb(108, 245, 245));
+    margin-left: 130px;
+}
+
+#listado{
+    font-family: 'Handlee', cursive;
+      text-align: center;
+      line-height:100px;
+  }
+
+
+  #listado a{
+      margin: 20px;
+      display:inline-block; /*NPI*/
+      color:rgb(0, 146, 190);
+      text-decoration:none;
+      padding:15px 15px;
+      line-height:normal;
+      font-size:20px;
+      -webkit-transition:all 100ms ease;
+      -o-transition:all 500ms ease;
+      transition:all 500ms ease;
+    }
+    #listado a:hover{
+      background-color:salmon;
+      color: #ffffff;
+      border-radius:20px;
+    }
